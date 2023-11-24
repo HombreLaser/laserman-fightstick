@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-0
+sidewalls_second_layer
   9
 $CELTYPE
   6
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-672.3186397338078
+17.30255889039827
  22
-581.9532311674358
+379.9353556349955
  13
 0
  23
@@ -1143,7 +1143,7 @@ AcDbViewportTableRecord
  37
 0
  40
-1918.156405835523
+1147.736406396419
  41
 1.934673366834171
  42
@@ -2235,7 +2235,7 @@ AcDbLayerTableRecord
   2
 0
  70
-    4
+    0
  62
     7
   6
@@ -2279,7 +2279,7 @@ AcDbLayerTableRecord
   2
 corner_standoffs
  70
-    4
+    0
  62
     1
   6
@@ -2301,7 +2301,7 @@ AcDbLayerTableRecord
   2
 sidewalls_second_layer
  70
-    4
+    0
  62
     5
   6
@@ -21003,7 +21003,7 @@ AcDbLine
  21
 25
   0
-LINE
+CIRCLE
   5
 34A
 100
@@ -21017,17 +21017,15 @@ ByLayer
 370
    -1
 100
-AcDbLine
+AcDbCircle
  10
--1090
+-943.5
  20
-109
- 11
--1090
- 21
-148
+144.5
+ 40
+2.5
   0
-LINE
+CIRCLE
   5
 34B
 100
@@ -21041,17 +21039,15 @@ ByLayer
 370
    -1
 100
-AcDbLine
+AcDbCircle
  10
--1090
+-943.5
  20
-148
- 11
--916
- 21
-148
+115
+ 40
+2.5
   0
-LINE
+CIRCLE
   5
 34C
 100
@@ -21065,17 +21061,15 @@ ByLayer
 370
    -1
 100
-AcDbLine
+AcDbCircle
  10
--916
+-1062.5
  20
-148
- 11
--916
- 21
-109
+115
+ 40
+2.5
   0
-LINE
+CIRCLE
   5
 34D
 100
@@ -21089,17 +21083,15 @@ ByLayer
 370
    -1
 100
-AcDbLine
+AcDbCircle
  10
--916
+-1062.5
  20
-109
- 11
--1090
- 21
-109
+144.5
+ 40
+2.5
   0
-LINE
+CIRCLE
   5
 34E
 100
@@ -21113,17 +21105,15 @@ ByLayer
 370
    -1
 100
-AcDbLine
+AcDbCircle
  10
--1090
+-1054.5
  20
-175
- 11
--1090
- 21
-214
+60.5
+ 40
+2.5
   0
-LINE
+CIRCLE
   5
 34F
 100
@@ -21137,17 +21127,15 @@ ByLayer
 370
    -1
 100
-AcDbLine
+AcDbCircle
  10
--1090
+-1054.5
  20
-214
- 11
--916
- 21
-214
+31
+ 40
+2.5
   0
-LINE
+CIRCLE
   5
 350
 100
@@ -21161,17 +21149,15 @@ ByLayer
 370
    -1
 100
-AcDbLine
+AcDbCircle
  10
--916
+-755.5000000000001
  20
-214
- 11
--916
- 21
-175
+31
+ 40
+2.5
   0
-LINE
+CIRCLE
   5
 351
 100
@@ -21185,15 +21171,13 @@ ByLayer
 370
    -1
 100
-AcDbLine
+AcDbCircle
  10
--916
+-755.5
  20
-175
- 11
--1090
- 21
-175
+60.5
+ 40
+2.5
   0
 CIRCLE
   5
@@ -21211,9 +21195,9 @@ ByLayer
 100
 AcDbCircle
  10
--1062.5
+-755.5
  20
-210.5
+-4.5
  40
 2.5
   0
@@ -21233,9 +21217,9 @@ ByLayer
 100
 AcDbCircle
  10
--1062.5
+-755.5000000000001
  20
-181
+-34
  40
 2.5
   0
@@ -21255,9 +21239,9 @@ ByLayer
 100
 AcDbCircle
  10
--943.5
+-1054.5
  20
-181
+-34
  40
 2.5
   0
@@ -21277,9 +21261,9 @@ ByLayer
 100
 AcDbCircle
  10
--943.5
+-1054.5
  20
-210.5
+-4.5
  40
 2.5
   0
@@ -21299,391 +21283,15 @@ ByLayer
 100
 AcDbCircle
  10
--943.5
- 20
-144.5
- 40
-2.5
-  0
-CIRCLE
-  5
-357
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--943.5
- 20
-115
- 40
-2.5
-  0
-CIRCLE
-  5
-358
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--1062.5
- 20
-115
- 40
-2.5
-  0
-CIRCLE
-  5
-359
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--1062.5
- 20
-144.5
- 40
-2.5
-  0
-CIRCLE
-  5
-35A
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--1054.5
- 20
-60.5
- 40
-2.5
-  0
-CIRCLE
-  5
-35B
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--1054.5
- 20
-31
- 40
-2.5
-  0
-CIRCLE
-  5
-35C
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--755.5000000000001
- 20
-31
- 40
-2.5
-  0
-CIRCLE
-  5
-35D
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--755.5
- 20
-60.5
- 40
-2.5
-  0
-CIRCLE
-  5
-35E
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--755.5
- 20
--4.5
- 40
-2.5
-  0
-CIRCLE
-  5
-35F
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--755.5000000000001
- 20
--34
- 40
-2.5
-  0
-CIRCLE
-  5
-360
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--1054.5
- 20
--34
- 40
-2.5
-  0
-CIRCLE
-  5
-361
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--1054.5
- 20
--4.5
- 40
-2.5
-  0
-CIRCLE
-  5
-362
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
 -905
  20
 47.5
  40
 13
   0
-ARC
-  5
-363
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--1031
- 20
-197.5
- 40
-15.5
-100
-AcDbArc
- 50
-13.60711353740929
- 51
-344.4832039548463
-  0
-ARC
-  5
-364
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--1001
- 20
-197
- 40
-15.5
-100
-AcDbArc
- 50
-193.6071135374093
- 51
-346.3928864625907
-  0
-ARC
-  5
-365
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--1001
- 20
-197
- 40
-15.5
-100
-AcDbArc
- 50
-15.5167960451537
- 51
-164.4832039548463
-  0
-ARC
-  5
-366
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--971
- 20
-197.5
- 40
-15.5
-100
-AcDbArc
- 50
-195.5167960451537
- 51
-526.3928864625907
-  0
 CIRCLE
   5
-367
+357
 100
 AcDbEntity
   8
@@ -21705,7 +21313,7 @@ AcDbCircle
   0
 MTEXT
   5
-368
+358
 100
 AcDbEntity
   8
@@ -21748,6 +21356,398 @@ opengosttypea-regular
     2
  44
 1
+  0
+CIRCLE
+  5
+359
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-1067.5
+ 20
+225.5
+ 40
+2.5
+  0
+CIRCLE
+  5
+35A
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-1067.5
+ 20
+196
+ 40
+2.5
+  0
+CIRCLE
+  5
+35B
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-948.5
+ 20
+196
+ 40
+2.5
+  0
+CIRCLE
+  5
+35C
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-948.5
+ 20
+225.5
+ 40
+2.5
+  0
+ARC
+  5
+35D
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-1036
+ 20
+212.5
+ 40
+15.5
+100
+AcDbArc
+ 50
+13.60711353740929
+ 51
+344.4832039548463
+  0
+ARC
+  5
+35E
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-1006
+ 20
+212
+ 40
+15.5
+100
+AcDbArc
+ 50
+193.6071135374093
+ 51
+346.3928864625907
+  0
+ARC
+  5
+35F
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-1006
+ 20
+212
+ 40
+15.5
+100
+AcDbArc
+ 50
+15.5167960451537
+ 51
+164.4832039548463
+  0
+ARC
+  5
+360
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-976
+ 20
+212.5
+ 40
+15.5
+100
+AcDbArc
+ 50
+195.5167960451537
+ 51
+166.3928864625907
+  0
+LINE
+  5
+361
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-1090
+ 20
+190
+ 11
+-1090
+ 21
+229
+  0
+LINE
+  5
+362
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-926
+ 20
+190
+ 11
+-1090
+ 21
+190
+  0
+LINE
+  5
+363
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-926
+ 20
+190
+ 11
+-926
+ 21
+229
+  0
+LINE
+  5
+364
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-926
+ 20
+229
+ 11
+-1090
+ 21
+229
+  0
+LINE
+  5
+365
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-1085
+ 20
+109
+ 11
+-1085
+ 21
+148
+  0
+LINE
+  5
+366
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-921
+ 20
+109
+ 11
+-921
+ 21
+148
+  0
+LINE
+  5
+367
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-921
+ 20
+109
+ 11
+-1085
+ 21
+109
+  0
+LINE
+  5
+368
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-1085
+ 20
+148
+ 11
+-921
+ 21
+148
   0
 ENDSEC
   0

@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-0
+sidewalls_second_layer
   9
 $CELTYPE
   6
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-752.0585914229031
+-287.929248323315
  22
-339.4447002410295
+-187.0876682653798
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-1200.879917297153
+71.65059635695397
  41
-1.934673366834171
+1.814814814814815
  42
 50
  43
@@ -9311,33 +9311,9 @@ AcDbCircle
  40
 12.5
   0
-LINE
-  5
-166
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-224
- 20
-60
- 11
-40
- 21
-60
-  0
 CIRCLE
   5
-167
+166
 100
 AcDbEntity
   8
@@ -9359,7 +9335,7 @@ AcDbCircle
   0
 CIRCLE
   5
-168
+167
 100
 AcDbEntity
   8
@@ -9381,7 +9357,7 @@ AcDbCircle
   0
 CIRCLE
   5
-169
+168
 100
 AcDbEntity
   8
@@ -9396,6 +9372,28 @@ ByLayer
 AcDbCircle
  10
 196.5
+ 20
+95.5
+ 40
+2.49999999999996
+  0
+CIRCLE
+  5
+169
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+67.5
  20
 95.5
  40
@@ -9417,11 +9415,11 @@ ByLayer
 100
 AcDbCircle
  10
-67.5
+170
  20
-95.5
+80
  40
-2.49999999999996
+17
   0
 CIRCLE
   5
@@ -9439,13 +9437,13 @@ ByLayer
 100
 AcDbCircle
  10
-170
+406.5
  20
-80
+66
  40
-17
+2.5
   0
-LINE
+CIRCLE
   5
 16C
 100
@@ -9459,17 +9457,15 @@ ByLayer
 370
    -1
 100
-AcDbLine
+AcDbCircle
  10
-40
+277.5
  20
-99.50000000000003
- 11
-224
- 21
-99.50000000000003
+66
+ 40
+2.5
   0
-LINE
+CIRCLE
   5
 16D
 100
@@ -9483,17 +9479,15 @@ ByLayer
 370
    -1
 100
-AcDbLine
+AcDbCircle
  10
-224
+406.5
  20
-99.50000000000003
- 11
-224
- 21
-60
+95.5
+ 40
+2.5
   0
-LINE
+CIRCLE
   5
 16E
 100
@@ -9507,131 +9501,17 @@ ByLayer
 370
    -1
 100
-AcDbLine
+AcDbCircle
  10
-40
+277.5
  20
-99.50000000000003
- 11
-40
- 21
-60
+95.5
+ 40
+2.5
   0
-LINE
+CIRCLE
   5
 16F
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-250
- 20
-60
- 11
-434
- 21
-60
-  0
-CIRCLE
-  5
-170
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-406.5
- 20
-66
- 40
-2.5
-  0
-CIRCLE
-  5
-171
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-277.5
- 20
-66
- 40
-2.5
-  0
-CIRCLE
-  5
-172
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-406.5
- 20
-95.5
- 40
-2.5
-  0
-CIRCLE
-  5
-173
-100
-AcDbEntity
-  8
-sidewalls_second_layer
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-277.5
- 20
-95.5
- 40
-2.5
-  0
-CIRCLE
-  5
-174
 100
 AcDbEntity
   8
@@ -9653,7 +9533,7 @@ AcDbCircle
   0
 CIRCLE
   5
-175
+170
 100
 AcDbEntity
   8
@@ -9675,7 +9555,7 @@ AcDbCircle
   0
 CIRCLE
   5
-176
+171
 100
 AcDbEntity
   8
@@ -9697,6 +9577,126 @@ AcDbCircle
   0
 LINE
   5
+172
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+45
+ 20
+60
+ 11
+45
+ 21
+99.50000000000001
+  0
+LINE
+  5
+173
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+219
+ 20
+60
+ 11
+219
+ 21
+99.50000000000001
+  0
+LINE
+  5
+174
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+219
+ 20
+99.50000000000001
+ 11
+45
+ 21
+99.50000000000001
+  0
+LINE
+  5
+175
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+45
+ 20
+60
+ 11
+219
+ 21
+60
+  0
+LINE
+  5
+176
+100
+AcDbEntity
+  8
+sidewalls_second_layer
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+255
+ 20
+99.50000000000001
+ 11
+255
+ 21
+60
+  0
+LINE
+  5
 177
 100
 AcDbEntity
@@ -9711,13 +9711,13 @@ ByLayer
 100
 AcDbLine
  10
-250
+429
  20
-99.50000000000003
+60
  11
-434
+429
  21
-99.50000000000003
+99.50000000000001
   0
 LINE
   5
@@ -9735,13 +9735,13 @@ ByLayer
 100
 AcDbLine
  10
-434
+429
  20
-99.50000000000003
+100
  11
-434
+255
  21
-60
+100
   0
 LINE
   5
@@ -9759,11 +9759,11 @@ ByLayer
 100
 AcDbLine
  10
-250
+255
  20
-99.50000000000003
+60
  11
-250
+429
  21
 60
   0
