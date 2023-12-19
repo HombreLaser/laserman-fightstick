@@ -31,9 +31,9 @@ $EXTMIN
   9
 $EXTMAX
  10
-361.0999999999999
+400
  20
-260
+230
  30
 0
   9
@@ -801,10 +801,6 @@ $PEXTMAX
  30
 0
   9
-$GRIDMODE
- 70
-    1
-  9
 $SNAPSTYLE
  70
     0
@@ -1115,9 +1111,9 @@ AcDbViewportTableRecord
  21
 1
  12
-444.1296405598944
+408.478845464214
  22
-272.6161614818864
+216.7438771850932
  13
 0
  23
@@ -1143,7 +1139,7 @@ AcDbViewportTableRecord
  37
 0
  40
-718.5512070847071
+631.9711583858394
  41
 1.934673366834171
  42
@@ -2255,17 +2251,15 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-pcb_holder
+Buttons-stick
  70
-    0
+    4
  62
-   96
-420
-32768
+    1
   6
 CONTINUOUS
 370
-    0
+   -3
 390
 F
   0
@@ -2413,7 +2407,7 @@ Standard
  70
     0
  40
-2.5
+1
  41
 2.5
  42
@@ -2437,7 +2431,7 @@ Standard
 141
 0.09
 142
-0
+2.5
 143
 25.4
 144
@@ -2465,7 +2459,7 @@ Standard
  77
     0
  78
-    8
+    1
  79
     0
 170
@@ -2503,7 +2497,7 @@ Standard
 277
     2
 278
-   44
+    0
 279
     0
 280
@@ -2525,7 +2519,7 @@ Standard
 289
     3
 340
-STANDARD
+standard
 341
 
 371
@@ -2679,7 +2673,7 @@ CIRCLE
 100
 AcDbEntity
   8
-pcb_holder
+Buttons-stick
   6
 ByLayer
  62
@@ -2689,11 +2683,11 @@ ByLayer
 100
 AcDbCircle
  10
-16.91999999999999
+200
  20
-216.765994
+154.56
  40
-1
+15.5
   0
 CIRCLE
   5
@@ -2701,7 +2695,7 @@ CIRCLE
 100
 AcDbEntity
   8
-pcb_holder
+Buttons-stick
   6
 ByLayer
  62
@@ -2711,11 +2705,11 @@ ByLayer
 100
 AcDbCircle
  10
-16.87000000000001
+196.53
  20
-253.672068
+116.12
  40
-1
+15.5
   0
 CIRCLE
   5
@@ -2723,7 +2717,7 @@ CIRCLE
 100
 AcDbEntity
   8
-pcb_holder
+Buttons-stick
   6
 ByLayer
  62
@@ -2733,11 +2727,11 @@ ByLayer
 100
 AcDbCircle
  10
-104.627175
+229.38
  20
-253.723068
+128.06
  40
-1
+15.5
   0
 CIRCLE
   5
@@ -2745,7 +2739,7 @@ CIRCLE
 100
 AcDbEntity
   8
-pcb_holder
+Buttons-stick
   6
 ByLayer
  62
@@ -2755,19 +2749,19 @@ ByLayer
 100
 AcDbCircle
  10
-104.627175
+264.8
  20
-216.765994
+123.74
  40
-1
+15.5
   0
-ARC
+CIRCLE
   5
 52
 100
 AcDbEntity
   8
-pcb_holder
+Buttons-stick
   6
 ByLayer
  62
@@ -2777,25 +2771,19 @@ ByLayer
 100
 AcDbCircle
  10
-15
+297.14
  20
-255
+109.19
  40
-5
-100
-AcDbArc
- 50
-90
- 51
-180
+15.5
   0
-LINE
+CIRCLE
   5
 53
 100
 AcDbEntity
   8
-pcb_holder
+Buttons-stick
   6
 ByLayer
  62
@@ -2803,23 +2791,21 @@ ByLayer
 370
    -1
 100
-AcDbLine
+AcDbCircle
  10
-10
+232.9400000000001
  20
-215
- 11
-10
- 21
-255
+166.42
+ 40
+15.5
   0
-ARC
+CIRCLE
   5
 54
 100
 AcDbEntity
   8
-pcb_holder
+Buttons-stick
   6
 ByLayer
  62
@@ -2829,25 +2815,19 @@ ByLayer
 100
 AcDbCircle
  10
-15
+267.54
  20
-215
+161.93
  40
-5
-100
-AcDbArc
- 50
-180
- 51
-270
+15.5
   0
-LINE
+CIRCLE
   5
 55
 100
 AcDbEntity
   8
-pcb_holder
+Buttons-stick
   6
 ByLayer
  62
@@ -2855,23 +2835,21 @@ ByLayer
 370
    -1
 100
-AcDbLine
+AcDbCircle
  10
-107
+300.5599999999999
  20
-210
- 11
-15
- 21
-210
+147.67
+ 40
+15.5
   0
-ARC
+CIRCLE
   5
 56
 100
 AcDbEntity
   8
-pcb_holder
+Buttons-stick
   6
 ByLayer
  62
@@ -2881,73 +2859,19 @@ ByLayer
 100
 AcDbCircle
  10
-107
+120
  20
-215
+140
  40
-5
-100
-AcDbArc
- 50
-270
- 51
-0
+10.64999999999999
   0
-LINE
+CIRCLE
   5
 57
 100
 AcDbEntity
   8
-pcb_holder
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-112
- 20
-255
- 11
-112
- 21
-215
-  0
-LINE
-  5
-58
-100
-AcDbEntity
-  8
-pcb_holder
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-15
- 20
-260
- 11
-107
- 21
-260
-  0
-ARC
-  5
-59
-100
-AcDbEntity
-  8
-pcb_holder
+0
   6
 ByLayer
  62
@@ -2957,17 +2881,55 @@ ByLayer
 100
 AcDbCircle
  10
-107
+42.90000000000009
  20
-255
+197.1
  40
-5
+2.5
+  0
+CIRCLE
+  5
+58
 100
-AcDbArc
- 50
+AcDbEntity
+  8
 0
- 51
-90
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+42.89999999999998
+ 20
+42.90000000000009
+ 40
+2.5
+  0
+CIRCLE
+  5
+59
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+367.0999999999999
+ 20
+42.90000000000001
+ 40
+2.5
   0
 CIRCLE
   5
@@ -2985,13 +2947,13 @@ ByLayer
 100
 AcDbCircle
  10
-347.5999999999999
+367.0999999999999
  20
-23.89999999999998
+197.1
  40
 2.5
   0
-CIRCLE
+LWPOLYLINE
   5
 5B
 100
@@ -3005,533 +2967,53 @@ ByLayer
 370
    -1
 100
-AcDbCircle
- 10
-347.5999999999999
- 20
-178.1
- 40
-2.5
-  0
-CIRCLE
-  5
-5C
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-23.39999999999998
- 20
-178.1
- 40
-2.5
-  0
-CIRCLE
-  5
-5D
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-23.39999999999998
- 20
-23.90000000000009
- 40
-2.5
-  0
-ARC
-  5
-5E
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-277.6399999999999
- 20
-90.19
- 40
-20
-100
-AcDbArc
- 50
-183.3327259192322
- 51
-69.89145877756836
-  0
-ARC
-  5
-5F
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-281.0599999999998
- 20
-128.67
- 40
-20
-100
-AcDbArc
- 50
-279.9506386619992
- 51
-130.6942292841715
-  0
-ARC
-  5
-60
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-245.3
- 20
-104.74
- 40
-20
-100
-AcDbArc
- 50
-199.9127792042737
- 51
-308.2206236808323
-  0
-ARC
-  5
-61
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-248.04
- 20
-142.93
- 40
-20
-100
-AcDbArc
- 50
-2.59065247552043
- 51
-143.3276175948413
-  0
-ARC
-  5
-62
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-209.88
- 20
-109.06
- 40
-20
-100
-AcDbArc
- 50
-229.0695854330784
- 51
-326.1797508315051
-  0
-ARC
-  5
-63
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-177.0299999999999
- 20
-97.11999999999999
- 40
-20
-100
-AcDbArc
- 50
-100.0656501748578
- 51
-350.8798216331305
-  0
-ARC
-  5
-64
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-213.4400000000001
- 20
-147.42
- 40
-20
-100
-AcDbArc
- 50
-21.88461374938172
- 51
-170.8760480316514
-  0
-ARC
-  5
-65
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-180.5
- 20
-135.56
- 40
-20
-100
-AcDbArc
- 50
-48.72663207501406
- 51
-249.6180676396136
-  0
-CIRCLE
-  5
-66
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-23.39999999999998
- 20
-178.1
- 40
-2.5
-  0
-CIRCLE
-  5
-67
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-23.39999999999998
- 20
-23.90000000000009
- 40
-2.5
-  0
-CIRCLE
-  5
-68
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-347.5999999999999
- 20
-23.89999999999998
- 40
-2.5
-  0
-CIRCLE
-  5
-69
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-347.5999999999999
- 20
-178.1
- 40
-2.5
-  0
-CIRCLE
-  5
-6A
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-177.37
- 20
-59.67206799999997
- 40
-1
-  0
-CIRCLE
-  5
-6B
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-265.127175
- 20
-59.72306800000001
- 40
-1
-  0
-CIRCLE
-  5
-6C
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-265.127175
- 20
-22.76599399999998
- 40
-1
-  0
-CIRCLE
-  5
-6D
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-177.4199999999998
- 20
-22.76599399999998
- 40
-1
-  0
-LWPOLYLINE
-  5
-6E
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
 AcDbPolyline
  90
-    4
+    8
  70
     1
  43
 0
  10
-58.99999999999989
- 20
-69.5
- 10
-138.9999999999999
- 20
-69.5
- 10
-138.9999999999999
- 20
-169.5
- 10
-58.99999999999989
- 20
-169.5
-  0
-LWPOLYLINE
-  5
-6F
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbPolyline
- 90
-    4
- 70
-    1
- 43
-0
- 10
-10
- 20
-192
- 10
-361.0999999999999
- 20
-192
- 10
-361.0999999999999
+32
  20
 10
  10
-10
+378
  20
 10
+ 42
+0.414213562373095
+ 10
+400
+ 20
+32
+ 10
+400
+ 20
+208
+ 42
+0.414213562373095
+ 10
+378
+ 20
+230
+ 10
+32
+ 20
+230
+ 42
+0.414213562373095
+ 10
+10
+ 20
+208
+ 10
+10
+ 20
+32
+ 42
+0.414213562373095
   0
 ENDSEC
   0
@@ -3565,7 +3047,7 @@ AcDbDictionary
   0
 PLOTSETTINGS
   5
-70
+5C
 100
 AcDbPlotSettings
   6
